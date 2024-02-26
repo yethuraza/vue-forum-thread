@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import sourceData from "@/data.json";
-import PageHomeVue from "../components/PageHome.vue";
-import ThreadShowPage from "../components/ThreadShowPage.vue";
-import PageNotFound from "../components/PageNotFound.vue";
+import PageHomeVue from "@/pages/PageHome.vue";
+import ThreadShowPage from "@/pages/ThreadShowPage.vue";
+import PageNotFound from "@/pages/PageNotFound.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [

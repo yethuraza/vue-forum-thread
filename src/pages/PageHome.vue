@@ -4,7 +4,7 @@
 </template>
 <script setup>
 import SourceDate from "@/data.json";
-import ThreadList from "./ThreadList.vue";
+import ThreadList from "../components/ThreadList.vue";
 import { ref } from "vue";
 const threads = ref(SourceDate.threads);
 const posts = ref(SourceDate.posts);
