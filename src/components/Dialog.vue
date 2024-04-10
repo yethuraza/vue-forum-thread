@@ -1,6 +1,6 @@
 <template>
   <div class="card flex justify-content-center">
-    <Button label="Show" @click="visible = true" />
+    <Button label="Help" severity="help" @click="visible = true" />
     <Dialog
       v-model:visible="visible"
       modal

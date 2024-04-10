@@ -1435,11 +1435,11 @@ button a {
     }
 }
 
-button {
+/* button {
     border: none;
     background: transparent;
     appearance: none;
-}
+} */
 
 .btn, .btn-blue, .btn-blue-outlined, .btn-brown, .btn-brown-outlined, .btn-green, .btn-green-outlined, .btn-red, .btn-red-outlined, .btn-ghost {
     padding: 15px 30px;

@@ -9,9 +9,11 @@ import "primevue/resources/primevue.min.css"; /* Deprecated */
 import "primeicons/primeicons.css";
 import Button from "primevue/button";
 import InputText from "primevue/inputtext";
+import Dialog from "primevue/dialog";
 
 const app = createApp(App);
 app.component("Button", Button);
 app.component("InputText", InputText);
+app.component("Dialog", Dialog);
 
 app.use(PrimeVue, { ripple: true }).use(router).mount("#app");
