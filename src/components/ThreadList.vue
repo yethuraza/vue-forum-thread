@@ -47,11 +47,13 @@
       <button class="btn-circle"><i class="fa fa-angle-right"></i></button>
     </div>
   </div>
+  <Dialog />
 </template>
 
 <script setup>
 import SourceDate from "@/data.json";
 import { ref } from "vue";
+import Dialog from "./Dialog.vue";
 const threads = ref(SourceDate.threads);
 const posts = ref(SourceDate.posts);
 const users = ref(SourceDate.users);

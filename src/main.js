@@ -4,5 +4,9 @@ import App from "./App.vue";
 import router from "@/router";
 import PrimeVue from "primevue/config";
 import "primevue/resources/themes/aura-light-green/theme.css";
+import Button from "primevue/button";
 
-createApp(App).use(PrimeVue).use(router).mount("#app");
+const app = createApp(App);
+app.component("Button", Button);
+
+app.use(PrimeVue).use(router).mount("#app");
